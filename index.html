@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CTECH Tecnologia</title>
+  </head>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Inter" !important;
+    }
+
+    .heading56 {
+      font-size: 56px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 72px;
+    }
+
+    .body24 {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    .body18 {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px;
+    }
+
+    .body16 {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+
+    .body14 {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    .button16 {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      color: #212529;
+    }
+
+    .white {
+      color: #fff;
+    }
+
+    .white2 {
+      color: rgba(255, 255, 255, 0.8);
+    }
+
+    body {
+      background-image: url("img/background.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 30px;
+    }
+
+    .top img {
+      margin-bottom: 32px;
+    }
+
+    .top h1 {
+      margin-bottom: 16px;
+    }
+
+    .bottom {
+      padding: 40px 0;
+    }
+
+    .bottom p {
+      width: 100%;
+      max-width: 350px;
+      margin: 0 auto 16px;
+    }
+
+    .bottom a {
+      background-color: #fff;
+      padding: 16px 40px;
+      width: fit-content;
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: 0;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 600px) {
+      footer {
+        position: initial;
+        padding-top: 12px;
+      }
+
+      header {
+        padding: 12px;
+      }
+
+      .bottom {
+        padding: 0px;
+      }
+
+      .top img {
+        margin-bottom: 16px;
+      }
+    }
+  </style>
+  <body>
+    <header class="container">
+      <header class="top">
+        <img src="./img/logo.png" alt="logo" />
+        <h1 class="hading56 white">Estamos criando algo incrível.</h1>
+        <p class="body18 white2">Em breve lançaremos nosso site.</p>
+      </header>
+      <header class="bottom">
+        <p class="body16 white">
+          Enquanto aguarda o lançamento clique no botão abaixo e <strong>fale conosco.</strong>
+        </p>
+        <a href="https://wa.me/5571999954262" class="button16"
+          ><img src="./img/icon.png" alt="icone" />Fale Conosco</a
+        >
+      </header>
+    </header>
+    <footer>
+      <p class="body14 white">
+        © 2023 Ctech Solution. Todos os Direitos Reservados. Desenvolvimento por
+        <strong>Renove Digital.</strong>
+      </p>
+    </footer>
+  </body>
+</html>
